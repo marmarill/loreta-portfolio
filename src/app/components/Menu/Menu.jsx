@@ -13,7 +13,7 @@ export default function Menu() {
       <div className={styles.fixedContainer}>
         <h1 className={styles.header}>Loreta<br />Asermane</h1>
         <Link href="/first" className={styles.categories}>FASHION COLLECTIONS</Link>
-        <Link href="/first" className={`${styles.sub} ${styles.categories}`}>INJURED</Link>
+        <Link href="/injured" className={`${styles.sub} ${styles.categories}`}>INJURED</Link>
         <Link href="/first" className={`${styles.sub} ${styles.categories}`}>MOTHERS</Link>
         <Link href="/first" className={`${styles.sub} ${styles.categories}`}>SOMNAMBULANCE OF THE CITY</Link>
         <Link href="/first" className={`${styles.sub} ${styles.categories}`}>NIGHTMARES OF LONELY LIGHTOUSE KEEPER</Link>
