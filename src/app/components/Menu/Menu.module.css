@@ -1,0 +1,35 @@
+.container {
+  max-width: 438px;
+  background-color: darkslategrey;
+  padding-right: 3rem;
+}
+
+.fixedContainer {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 3rem;
+  left: 0;
+  font-family: Helvetica;
+  font-weight: 100;
+  max-width: 350px;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+.header {
+  font-family: "Kings";
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 62px;
+  line-height: 1;
+}
+
+.categories {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+.sub {
+  padding-left: 1rem;
+}

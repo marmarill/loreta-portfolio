@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+  padding: 3rem 4rem 4rem 4rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  padding-left: 4rem;
+}
+
+.sidebar {
+  display: flex;
+  flex: 1;
+}
