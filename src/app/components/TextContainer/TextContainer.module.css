@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  font-family: "Crimson Text", serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  max-width: 750px;
+  margin: auto;
+}
