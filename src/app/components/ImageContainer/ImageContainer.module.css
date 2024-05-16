@@ -1,6 +1,7 @@
 .image {
   display: flex;
-  max-width: 732px;
+  width: 732px;
+  max-width: 1000px;
   margin: auto;
   margin-bottom: 30px;
 }

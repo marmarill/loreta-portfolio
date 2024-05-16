@@ -22,7 +22,7 @@ export default function Menu() {
     },
     {
       label: 'COLLABORATIONS', items: [
-        { path: '/XXX24', label: 'XXX24' },
+        { path: '/xxx24', label: 'XXX24' },
         { path: '/aj', label: 'AJ POWER PROJECT RECYCLING' },
         { path: '/xxx22', label: 'XXX22' },
         { path: '/volga', label: 'VOLGA VINTAGE' }

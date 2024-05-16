@@ -1,6 +1,8 @@
 import React from "react";
 import Menu from "../Menu/Menu";
 import styles from './Layout.module.css'
+import Transition from "../Transition";
+
 
 const Layout = ({ children }) => {
   return (
@@ -9,7 +11,9 @@ const Layout = ({ children }) => {
         <Menu />
       </div>
       <div className={styles.content}>
-        {children}
+        <Transition>
+          {children}
+        </Transition>
       </div>
     </div>
   )
